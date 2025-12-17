@@ -1,0 +1,56 @@
+:root {
+  --primary-color: aquamarine;
+  --secundary-color: rgb(29, 1, 131);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+
+}
+
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px ;
+
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color)
+}
+
+form button {
+    border: none;
+    background: var(--primary-color);
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer
+}
+
+form button:hover {
+    background: var(--secundary-color);
+    color: white;
+}
+
